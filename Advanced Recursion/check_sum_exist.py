@@ -1,5 +1,5 @@
 # Write a progaram to check if there exists subsequences for a target sum in an array or not:-----return bool
-# Recursion
+#Recursion
 def subsequences(nums:list,target:int) ->list:
     n = len(nums)
 
