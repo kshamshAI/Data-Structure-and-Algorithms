@@ -11,7 +11,7 @@ class Solution:
         if total < 0:
             return
         if total > len(character)//2:
-            return
+            returngit
         character[index] = "("
         self.gen_parantheses(index+1,total+1,character,result)
         character[index] = ")"
