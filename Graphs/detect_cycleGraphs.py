@@ -1,4 +1,4 @@
-
+# GeeksforGeeks Problem
 from collections import deque
 class Solution:
     def isCycle(self, V, edges):
@@ -54,7 +54,7 @@ class Solution:
                 return True
         return False
 V1 = 4
-edges1 = [[0, 1], [0, 2], [1, 2], [2, ]]
+edges1 = [[0, 1], [0, 2], [1, 2], [2, 3]]
 V2 = 4
 edges2 = [[0, 1], [1, 2], [2, 3]]
 print(f'Output1: {Solution().isCycle2(V1,edges1)}, Output2: {Solution().isCycle2(V2,edges2)}')

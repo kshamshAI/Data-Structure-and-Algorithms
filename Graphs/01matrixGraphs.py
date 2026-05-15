@@ -1,4 +1,4 @@
-'''542. 01 Matrix
+'''Leetcode 542. 01 Matrix
 Solved
 Medium
 Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.
