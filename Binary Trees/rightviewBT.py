@@ -5,6 +5,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+        
 class Solution:
     #BFS Approach
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
@@ -12,7 +13,7 @@ class Solution:
         queue = deque([])
         queue.append(root)
         while queue:
-            level_size = len(queue)ADD
+            level_size = len(queue)
             for i in range(level_size):
                 e = queue.popleft()
                 if i == (level_size-1):
