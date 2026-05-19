@@ -40,6 +40,7 @@ Constraints:
 1 ≤ n, m ≤ 500
 grid[i][j] == 0 or grid[i][j] == 1'''
 
+
 # ---------------------------------Solution-------------------------------------------------------
 from collections import deque
 from typing import List
